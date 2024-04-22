@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSI/TCP Model - HisHackMaterials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="hishack1.png" alt="HisHackMaterials Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="fundamentals.html">Cyber Security Fundamentals</a></li>
+            <li><a href="educational.html">Educational Material</a></li>
+            <li><a href="tools.html">Tool Library</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="osi-tcp-intro">
+        <h1>OSI/TCP Model</h1>
+        <p>Understanding the OSI and TCP/IP models is essential for comprehending how different network protocols interact and function within cyber security frameworks. These models are crucial for diagnosing and resolving network issues effectively.</p>
+    </section>
+
+    <section class="osi-details">
+        <h2>OSI Model Overview</h2>
+        <p>The Open Systems Interconnection (OSI) model is a conceptual framework used to understand network interactions in seven layers. Each layer serves a specific function and communicates with the layers directly above and below it. The OSI Model includes:</p>
+        <p>
+            Physical Layer (Layer 1): Deals with the physical hardware of networking, including cables, switches, and more. Issues at this layer affect connectivity and are often physical (e.g., cable disconnections).<br>
+            Data Link Layer (Layer 2): Handles communication between adjacent network nodes and can identify and possibly correct errors that may occur in the Physical layer.<br>
+            Network Layer (Layer 3): Manages device addressing, tracks the location of devices on the network, and determines the best way to move data.<br>
+            Transport Layer (Layer 4): Transfers data between systems and provides acknowledgment of successful transmissions.<br>
+            Session Layer (Layer 5): Controls the connections between computers. It establishes, manages, and terminates the connections.<br>
+            Presentation Layer (Layer 6): Transforms data to provide a standard interface for the Application layer.<br>
+            Application Layer (Layer 7): Closest to the end user. Network processes that involve interaction with the user are facilitated here.
+        </p>
+    </section>
+
+    <section class="tcp-ip-intro">
+        <h2>TCP/IP Model Overview</h2>
+        <p>The TCP/IP model is a more streamlined version of the OSI model, often used in real-world networking. It consists of four layers: Network Interface, Internet, Transport, and Application. Each layer in TCP/IP corresponds closely to one or more layers of the OSI model and is essential in troubleshooting various network issues.</p>
+    </section>
+
+    <!-- Image Section for OSI/TCP Comparison -->
+    <section class="osi-tcp-comparison">
+        <h2>OSI vs. TCP/IP Models</h2>
+        <img src="osi2.png" alt="Comparison of OSI and TCP/IP Models">
+        <p>This diagram illustrates the differences between the OSI and TCP/IP models, highlighting how each model structures network communications differently and the protocols, protocol data units (PDU's) and hardware associated with each layer.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright © 2024 HisHackMaterials. All rights reserved.</p>
+</footer>
+
+<script src="light_dark_script.js"></script>
+</body>
+</html>
